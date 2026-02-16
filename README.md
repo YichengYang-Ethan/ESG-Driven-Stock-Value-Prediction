@@ -45,9 +45,15 @@ Part of a broader [quantitative finance toolkit](https://github.com/YichengYang-
 - Random Forest achieved **15% relative lift** in classification accuracy over Logistic Regression
 - Walk-forward backtesting confirmed consistent outperformance across all folds
 
-<p align="center">
-  <img src="results/backtest_plot.png" width="600" alt="Backtest Results">
-</p>
+> The backtest accuracy chart is generated in the notebook — run all cells to reproduce.
+
+## How to Run
+
+1. **Data**: Place `my_esg_stock_data.csv` (stock price + ESG ratings for 500+ companies) in the repo root
+2. **Dependencies**: `pip install -r requirements.txt`
+3. **Execution**: Run all cells in `esg-driven-stock-value-prediction.ipynb` sequentially
+
+> The dataset was sourced from a university research database and is not redistributable.
 
 ## Future Work
 
