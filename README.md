@@ -58,11 +58,12 @@ Part of a broader [quantitative finance toolkit](https://github.com/YichengYang-
 
 ## Related Projects
 
-| Project | Role |
-|---------|------|
-| [clawdfolio](https://github.com/YichengYang-Ethan/clawdfolio) | Core engine — risk analytics, Sharpe ratio, technical indicators |
-| [crypto-return-prediction](https://github.com/YichengYang-Ethan/crypto-return-prediction-kaggle) | LightGBM prediction with shared momentum/trend feature methodology |
-| [investment-dashboard](https://github.com/YichengYang-Ethan/investment-dashboard) | Portfolio visualization frontend |
+| Project | Relationship |
+|---------|-------------|
+| [clawdfolio](https://github.com/YichengYang-Ethan/clawdfolio) | **Shared methodology** — Sharpe ratio, risk metrics, and technical indicators used in both research and production |
+| [crypto-return-prediction](https://github.com/YichengYang-Ethan/crypto-return-prediction-kaggle) | **Complementary research** — this project uses fundamental ESG factors; crypto uses short-term momentum signals |
+| [investment-dashboard](https://github.com/YichengYang-Ethan/investment-dashboard) | Portfolio visualization frontend powered by clawdfolio |
+| [QQQ-200D-Deviation-Dashboard](https://github.com/YichengYang-Ethan/QQQ-200D-Deviation-Dashboard) | Single-strategy dashboard using SMA deviation |
 
 ## License
 
