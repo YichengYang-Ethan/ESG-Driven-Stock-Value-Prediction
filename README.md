@@ -42,10 +42,19 @@ Part of a broader [quantitative finance toolkit](https://github.com/YichengYang-
 
 ## Results
 
-- Random Forest achieved **15% relative lift** in classification accuracy over Logistic Regression
-- Walk-forward backtesting confirmed consistent outperformance across all folds
+The walk-forward backtest compares Random Forest (regression converted to classification) against a Logistic Regression baseline across 5 sequential folds. Key metrics reported per fold:
 
-> The backtest accuracy chart is generated in the notebook — run all cells to reproduce.
+| Metric | Random Forest | Logistic Regression |
+|--------|--------------|---------------------|
+| **Avg Classification Accuracy** | Higher across all folds | Baseline |
+| **Relative Accuracy Lift** | **~15%** over baseline | -- |
+| **RMSE** | Reported per fold | Reported per fold |
+
+- Random Forest achieved a **15% relative lift** in classification accuracy over Logistic Regression
+- Walk-forward backtesting confirmed consistent outperformance across all 5 folds
+- Exact per-fold accuracy and RMSE values are printed when running the notebook (dataset is not redistributable)
+
+> Run all cells in the notebook to reproduce the backtest accuracy chart and per-fold metrics.
 
 ## How to Run
 
